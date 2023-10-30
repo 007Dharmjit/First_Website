@@ -20,13 +20,13 @@
                         <input id="password" type="password" required>
                         <label for="">Password</label>
                     </div>
-                    <div class="forget">
+                    <!-- <div class="forget">
                         <label for=""><input type="checkbox">Remember Me  <a href="#">Forget Password</a></label>
                       
-                    </div>
+                    </div> -->
                     <input type="button" class="button" onclick="validateForm()" value="Login">
                     <div class="register">
-                        <p>Don't have a account <a href="#">Register</a></p>
+                        <p>Don't have a account? <a href="#">Register</a></p>
                     </div>
                 </form>
             </div>
@@ -43,7 +43,7 @@
         
                     if (username === 'dharmjit' && password === 'xyz123') {
                         
-                        window.location.href = "project.html";
+                        window.location.href = "first_page.html";
                     } else {
                         document.getElementById("alert").innerHTML = "Please enter valid Id and Password!";
                     }
